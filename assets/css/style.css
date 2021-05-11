@@ -1,5 +1,9 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
 .navbar-collapse {
     justify-content: flex-end;
+    font-size: 20px;
     
 }
 .container-fluid {
@@ -19,25 +23,28 @@
     text-align: center;
     font-size: 70px;
     padding: 10px 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-weight: bold;
 }
 .row {
     justify-content: center;
 }
-<<<<<<< HEAD
-.integrantes h2 {
+.integrantes {
+    background-color: #f299b9;
+}
+.integrantes h2, .biography h3 {
+    text-align: center;
     font-size: 45px;
     padding: 10px;
+    font-weight: bold;
 }
 
 .integrantes .card img {
     width: 250px;
     height: 250px;
 }
-=======
  .biography{
     padding: 150px 50px;
     background-color: #ffffb3;
-    font-size: 40px;
+    font-size: 20px;
 }
->>>>>>> dcf6fe9ce23d72ee1fa578b508ef9e4cfe1104f6
