@@ -24,6 +24,7 @@
 .row {
     justify-content: center;
 }
+<<<<<<< HEAD
 .integrantes h2 {
     font-size: 45px;
     padding: 10px;
@@ -33,3 +34,10 @@
     width: 250px;
     height: 250px;
 }
+=======
+ .biography{
+    padding: 150px 50px;
+    background-color: #ffffb3;
+    font-size: 40px;
+}
+>>>>>>> dcf6fe9ce23d72ee1fa578b508ef9e4cfe1104f6
