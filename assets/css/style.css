@@ -1,0 +1,12 @@
+*{
+    margin: 0;+
+    padding: 0;
+}
+body{
+    margin: 50px 50px;
+}
+.biography{
+    padding: 150px 50px;
+    background-color: #ffffb3;
+    font-size: 40px;
+}
