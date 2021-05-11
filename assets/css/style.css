@@ -24,3 +24,12 @@
 .row {
     justify-content: center;
 }
+.integrantes h2 {
+    font-size: 45px;
+    padding: 10px;
+}
+
+.integrantes .card img {
+    width: 250px;
+    height: 250px;
+}
