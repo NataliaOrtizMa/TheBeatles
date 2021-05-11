@@ -1,10 +1,14 @@
 * {
     font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .navbar-collapse {
     justify-content: flex-end;
     font-size: 20px;
-    
+}
+.navbar-nav {
+    text-align: right;
 }
 .container-fluid {
     margin: 0 60px;
@@ -18,7 +22,6 @@
     background-size: cover;
     height: 500px; 
 }
-
 .banner h1 {
     text-align: center;
     font-size: 70px;
@@ -31,8 +34,9 @@
 } */
 .integrantes {
     background-color: #f299b9;
+    padding: 150px 50px;
 }
-.integrantes h2, .biography h3, .albumh2{
+.integrantes h2, .biography h3, .albumh2, .videoContainer h3{
     text-align: center;
     font-size: 45px;
     padding: 10px;
@@ -44,10 +48,17 @@
     height: 250px;
     border-radius: 10px;
 }
+.integrantes .card .card-body p {
+    text-align: justify;
+}
+.card-opacity {
+    opacity: 0.7;
+}
  .biography{
     padding: 150px 50px;
     background-color: #ffffb3;
     font-size: 20px;
+    text-align: center;
 }
 .albumCentrar{
     display: flex;
@@ -62,12 +73,44 @@
     float: left;
     transition: 0.3s;
     width: 300px;
-    height: 750px;
+    height: 100%;
     margin: 10px;
     border-radius: 10px;
   }
 .albumSection {
     background-color: #72CEF2;
+    padding: 150px 50px;
+}
+.albumCarrusel{
+    padding: 50px 20px 50px 30px;
+    justify-content: center;
+    float: left;
+    width: 40%;
+
+}
+
+
+.albumCarruselText{
+    padding: 50px 20px 50px 10px;
+    justify-content: center;
+    float: left;
+    width: 55%;
+
+
+}
+.albumCarruselText p{
+    padding: 50px 10px;
+    text-align: justify;
+    color:white;
+}
+.albumCarruselText h2{
+    /* color: #f2E74B; */
+    text-align:center;
+    font-weight: bold;
+}
+.carousel-inner {
+    margin: 0 120px;
+    width: auto;
 }
 .album img{
     border-radius: 10px;
@@ -77,21 +120,32 @@
 
 .albumContainer {
     padding: 2px 16px;
-    height: 650px;
   }
 .albumContainer p{
     text-align: justify;
     color:white;
 }
 .albumContainer h5, h5{
-    /* color: #f2E74B; */
     text-align:center;
     font-weight: bold;
+}
+.videoContainer {
+    background-color: #f299b9;
+    padding: 150px 50px;
+}
+.card-media {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+.videoContainer .row {
+    align-items: center;
 }
 footer{
     background-color: #f2d201;
     color: black;
     text-align: center;
-    padding: 20px 100px;
+    padding: 20px 250px;
     font-size: 20px;
 }
