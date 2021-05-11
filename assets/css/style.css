@@ -1,10 +1,22 @@
 
+.albumCentrar{
+    display: flex;
+    justify-content: center;
 
+}
+.albumh2{
+    text-align: center;
+}
 .album {
+    justify-content: center;
+
+    padding: 10px 10px 10px 10px;
+    background-color:#696969; 
     float: left;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 300px;
+    margin: 10px;
+    border-radius: 10px;
   }
 
 .album img{
@@ -19,7 +31,9 @@
   }
 .albumContainer p{
     text-align: justify;
+    color:white;
 }
 .albumContainer h2{
+    color: #f2E74B;
     text-align:center;
 }
