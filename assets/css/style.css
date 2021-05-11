@@ -21,3 +21,6 @@
     padding: 10px 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.row {
+    justify-content: center;
+}
