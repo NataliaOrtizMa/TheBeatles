@@ -9,7 +9,54 @@
     <title>The Beatles</title>
 </head>
 <body>
-    <!-- Inicio de integrantes -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f2e74b;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/The_Beatles_logo.svg" alt="" width="30" height="24">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#biografia">Biografía</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#integrantes" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Integrantes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#jhon">Jhon Lennon</a></li>
+                  <li><a class="dropdown-item" href="#paul">Paul McCartney</a></li>
+                  <li><a class="dropdown-item" href="#george">George Harrison</a></li>
+                  <li><a class="dropdown-item" href="#ringo">Ringo Starr</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#albumes" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Álbumes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#revolverAlbum">Revolver</a></li>
+                  <li><a class="dropdown-item" href="#sgtAlbum">Sgt</a></li>
+                  <li><a class="dropdown-item" href="#whiteAlbum">White Album</a></li>
+                  <li><a class="dropdown-item" href="#abbyAlbum">Abby Road</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- comienzo banner -->
+    <div class="banner">
+        <h1>The Beatles</h1>
+    </div>
+    <!-- fin banner -->
+  <!-- Inicio de integrantes -->
     <div id="integrantes" class="integrantes text-center">
         <h2>Integrantes</h2>
         <div class="row">
@@ -63,6 +110,6 @@
         </div>
     </div>
     <!-- Fin de integrantes -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 </body>
 </html>
