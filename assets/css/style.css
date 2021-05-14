@@ -1,159 +1,137 @@
 * {
-    font-family: 'Noto Sans', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .navbar-collapse {
-    justify-content: flex-end;
-    font-size: 20px;
+  justify-content: flex-end;
+  font-size: 20px;
 }
 .navbar-nav {
-    text-align: right;
+  text-align: right;
 }
 .container-fluid {
-    margin: 0 60px;
+  margin: 0 60px;
 }
 .navbar-brand img {
-    width: 100px;
-    height: 50px;
+  width: 100px;
+  height: 50px;
 }
-.banner{
-    background-image: url(../img/banner2.jpg);
-    background-size: cover;
-    height: 500px; 
+.banner {
+  background-image: url(../img/banner2.jpg);
+  background-size: cover;
+  height: 500px;
 }
 .banner h1 {
-    text-align: center;
-    font-size: 70px;
-    padding: 10px 50px;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    font-weight: bold;
+  text-align: center;
+  font-size: 70px;
+  padding: 10px 50px;
+  font-weight: bold;
 }
-/* .row {
-    justify-content: center;
-} */
+
 .integrantes {
-    background-color: #f299b9;
-    padding: 150px 50px;
+  background-color: #f299b9;
+  padding: 150px 50px;
 }
-.integrantes h2, .biography h3, .albumh2, .videoContainer h3{
-    text-align: center;
-    font-size: 45px;
-    padding: 10px;
-    font-weight: bold;
+.integrantes h2,
+.biography h3,
+.albumh2,
+.videoContainer h3 {
+  text-align: center;
+  font-size: 45px;
+  padding: 10px;
+  font-weight: bold;
 }
 
 .integrantes .card img {
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
 }
 .integrantes .card .card-body p {
-    text-align: justify;
+  text-align: justify;
 }
 .card-opacity {
-    opacity: 0.7;
+  opacity: 0.7;
 }
- .biography{
-    padding: 150px 50px;
-    background-color: #ffffb3;
-    font-size: 20px;
-    text-align: center;
+.biography {
+  padding: 150px 50px;
+  background-color: #ffffb3;
+  font-size: 20px;
+  text-align: center;
 }
-.albumCentrar{
-    display: flex;
-    justify-content: center;
 
-}
-.album {
-    justify-content: center;
-
-    padding: 10px 10px 10px 10px;
-    background-color:#696969; 
-    float: left;
-    transition: 0.3s;
-    width: 300px;
-    height: 100%;
-    margin: 10px;
-    border-radius: 10px;
-  }
 .albumSection {
-    background-color: #72CEF2;
-    padding: 150px 50px;
-}
-.albumCarrusel{
-    padding: 50px 20px 50px 30px;
-    justify-content: center;
-    float: left;
-    width: 40%;
-
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #72cef2;
+  padding-top: 8rem;
+  margin-bottom: 0;
 }
 
-
-.albumCarruselText{
-    padding: 50px 20px 50px 10px;
-    justify-content: center;
-    float: left;
-    width: 55%;
-
-
+.albumContainer1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 5%;
+  justify-content: space-around;
 }
-.albumCarruselText p{
-    padding: 50px 10px;
-    text-align: justify;
-    color:white;
+.albumContainer1 img {
+  border: 1px solid white;
+  width: 40%;
+  height: 40%;
 }
-.albumCarruselText h2{
-    /* color: #f2E74B; */
-    text-align:center;
-    font-weight: bold;
-}
-.carousel-inner {
-    margin: 0 120px;
-    width: auto;
-}
-.album img{
-    border-radius: 10px;
-    width: 300px; 
-    height: 300px;
+.albumContainer2 {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 50%;
 }
 
-.albumContainer {
-    padding: 2px 16px;
-  }
-.albumContainer p{
-    text-align: justify;
-    color:white;
+.albumTitle {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 0;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
-.albumContainer h5, h5{
-    text-align:center;
-    font-weight: bold;
+.albumSpotify {
+  width: 50%;
+  height: 100%;
+  margin-bottom: 5%;
 }
+.albumSpotify iframe {
+  height: 100%;
+  width: 100%;
+}
+
 .videoContainer {
-    background-color: #f299b9;
-    padding: 150px 50px;
+  background-color: #f299b9;
+  padding: 150px 50px;
 }
 .card-media {
-    width: 600px;
-    margin: 0 auto;
-    text-align: center;
-    align-items: center;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
 }
 .videoContainer .row {
-    align-items: center;
+  align-items: center;
 }
-footer{
-    background-color: #f2d201;
-    color: black;
-    text-align: center;
-    padding: 20px 250px;
-    font-size: 20px;
+footer {
+  background-color: #f2d201;
+  color: black;
+  text-align: center;
+  padding: 20px 250px;
+  font-size: 20px;
 }
